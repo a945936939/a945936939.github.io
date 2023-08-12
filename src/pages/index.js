@@ -11,7 +11,7 @@ import android1 from "public/android1.png";
 import android2 from "public/android2.png";
 import android3 from "public/android3.png";
 import consulting from "public/consulting.png";
-
+import futurecity from "public/futurecity.png";
 import game1 from "public/game1.png";
 import { useState } from "react";
 import Service from "./Service";
@@ -148,14 +148,6 @@ export default function Home() {
                   (demonstrated on emulators)
                 </p>
 
-                <div className="flex justify-center text-center">
-                  <AiFillPlayCircle
-                    className="w-36 h-36 cursor-pointer"
-                    onClick={() => {
-                      window.open("https://truman1998.itch.io/jump-man");
-                    }}
-                  />
-                </div>
                 <p className="text-md py-2 leading-8 text-gray-800">
                   Github Link(private visibility , will change to public if
                   wants to have a look):
@@ -194,6 +186,37 @@ export default function Home() {
                   layout="responsive"
                   src={android3}
                 />
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="basis-1/3 flex-1">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={futurecity}
+                />
+              </div>
+              <div className="basis-1/3 flex-1">
+                <h3 className="text-2xl font-medium pt-8 pb-2"> Jump Man</h3>
+                <p className="text-md py-2 leading-8 text-gray-800">
+                  Press the <span className="text-teal-500">spacebar</span> to
+                  jump to avoid the obstacles.
+                </p>
+
+                <p className="text-md py-2 leading-8 text-gray-800">
+                  Github Link(private visibility , will change to public if
+                  wants to have a look):
+                </p>
+                <a
+                  href="https://github.com/a945936939/Prototype3
+"
+                  className="text-md py-2 leading-8 text-gray-800 cursor-pointer hover:underline"
+                >
+                  https://github.com/a945936939/FutureCity
+                </a>
               </div>
             </div>
           </section>
