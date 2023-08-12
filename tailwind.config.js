@@ -12,7 +12,12 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        // "teal-texture": "url('/public/bg.png')",
       },
+      backgroundSize: {
+        "50%": "30%",
+      },
+
       fontFamily: { burtons: "burtons" },
     },
   },
