@@ -118,7 +118,11 @@ export default function Home() {
                   Press the <span className="text-teal-500">spacebar</span> to
                   jump to avoid the obstacles.
                 </p>
-
+                <p className="text-md py-2 leading-8 text-gray-800">
+                  Using <span className="text-teal-500">Unity3D</span> with{" "}
+                  <span className="text-teal-500">C#</span>, deployed on
+                  itch.io(indie game website)
+                </p>
                 <div className="flex justify-center text-center">
                   <AiFillPlayCircle
                     className="w-36 h-36 cursor-pointer"
@@ -200,10 +204,18 @@ export default function Home() {
                 />
               </div>
               <div className="basis-1/3 flex-1">
-                <h3 className="text-2xl font-medium pt-8 pb-2"> Jump Man</h3>
+                <h3 className="text-2xl font-medium pt-8 pb-2">
+                  {" "}
+                  Emission Tracker
+                </h3>
                 <p className="text-md py-2 leading-8 text-gray-800">
-                  Press the <span className="text-teal-500">spacebar</span> to
-                  jump to avoid the obstacles.
+                  Using{" "}
+                  <span className="text-teal-500">
+                    PHP, CSS, Bootstrap, Cloud Deploy
+                  </span>{" "}
+                  and built a website which can track your carbon footprint
+                  based on your destination, and will show the result on our
+                  modified google map.
                 </p>
 
                 <p className="text-md py-2 leading-8 text-gray-800">
