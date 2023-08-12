@@ -112,7 +112,7 @@ export default function Home() {
                 />
               </div>
               <div className="basis-1/3 flex-1">
-                <h3 className="text-lg font-medium pt-8 pb-2"> Jump Man</h3>
+                <h3 className="text-2xl font-medium pt-8 pb-2"> Jump Man</h3>
                 <p className="text-md py-2 leading-8 text-gray-800">
                   Press the <span className="text-teal-500">spacebar</span> to
                   jump to avoid the obstacles.
