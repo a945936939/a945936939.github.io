@@ -19,7 +19,7 @@ import Abilities from "./Abilities";
 
 export default function Home() {
   const content1 =
-    "After years of training and practice, I have become a full-stack developer with a strong sense of design.";
+    "After years of training and practice, I have become a developer and familiar with several tech stacks.";
   const content2 =
     "I also have a strong interest in design, and I have a certain understanding of the design of the product.";
   const content3 =
