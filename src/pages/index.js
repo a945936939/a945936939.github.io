@@ -52,9 +52,9 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <div className="px-10 py-10 md:px-20 lg:px-40 backdrop-blur-sm  ">
+        <div className="px-1 py-1 md:px-20 lg:px-40 backdrop-blur-sm  ">
           <section className="min-h-screen  rounded-2xl bg-teal-50 my-10 p-3 ">
-            <div className="text-yellow-950 text-center p-10">
+            <div className="text-yellow-950 text-center p-10 md:p-20">
               <h2 className="text-5xl py-2 text-teal-700 font-medium md:text-6xl">
                 TRUMAN GUO
               </h2>
@@ -79,7 +79,7 @@ export default function Home() {
                 onClick={() => window.open("https://github.com/a945936939")}
               />
             </div>
-            <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden md:h-96 md:w-96">
+            <div className="relative bg-gradient-to-b from-teal-500 rounded-full  mt-20 mx-auto w-24 h-24 overflow-hidden md:h-96 md:w-96 sm:w-48 sm:h-48">
               <Image src={deved} layout="fill" objectFit="cover" />
             </div>
           </section>
