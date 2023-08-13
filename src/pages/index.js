@@ -79,7 +79,7 @@ export default function Home() {
                 onClick={() => window.open("https://github.com/a945936939")}
               />
             </div>
-            <div className="relative bg-gradient-to-b from-teal-500 rounded-full  mt-20 mx-auto w-24 h-24 overflow-hidden md:h-96 md:w-96 sm:w-48 sm:h-48">
+            <div className="relative bg-gradient-to-b from-teal-500 rounded-full  mt-1 sm:mt-5 md:mt-10 mx-auto w-32 h-32 overflow-hidden md:h-96 md:w-96 sm:w-48 sm:h-48">
               <Image src={deved} layout="fill" objectFit="cover" />
             </div>
           </section>
