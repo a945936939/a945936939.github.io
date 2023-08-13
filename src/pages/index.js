@@ -86,9 +86,9 @@ export default function Home() {
                 <Image src={deved} layout="fill" objectFit="cover" />
               </div>
             </section>
-            <div className="m-96 ">
-              <h3 className="text-6xl py-1 text-white text-center">
-                Being passionate, being innovative
+            <div className="m-24 lg:m-96 md:m-48 ">
+              <h3 className="text-xl md:text-2xl lg:text-6xl py-1 text-white text-center">
+                PASSIONATE INNOVATIVE
               </h3>
             </div>
             <section className="pb-10 bg-white  py-3 px-10 md:px-20 lg:px-40">
