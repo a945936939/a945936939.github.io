@@ -31,8 +31,8 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <main className="bg-white bg-cover ">
-        <nav className="py-10 pb-12 flex justify-between text-white rounded-md bg-gradient-to-br from-slate-950 to-teal-950 px-10 md:px-20 lg:px-40 ">
-          <h1 className="text-2xl font-burtons ">DEVEOPED BY TRUMAN</h1>
+        <nav className="py-10 pb-12 flex justify-between text-white bg-gradient-to-br from-slate-950 to-teal-950 px-10 md:px-20 lg:px-40 ">
+          <h1 className="text-2xl font-burtons ">TRUMAN PORTFOLIO</h1>
 
           <ul className="flex items-center">
             {/* <li>
@@ -91,9 +91,9 @@ export default function Home() {
               <Service content={content3} title={title3} src={consulting} />
             </div>
           </section>
-          <section className="rounded-2xl shadow-lg  bg-teal-50  my-10 py-3 px-10 md:px-20 lg:px-40">
+          <section className="rounded-2xl shadow-lg text-center bg-teal-50  my-10 py-3 px-10 md:px-20 lg:px-40">
             <div>
-              <h3 className="text-3xl py-1">Portfolio</h3>
+              <h3 className="text-3xl py-1">Work I have done</h3>
               <h3 className="text-lg font-medium pt-8 pb-2"> Designs</h3>
               <p className="text-md py-2 leading-8 text-gray-800">
                 Design is the key to a great user experience. I can help the
