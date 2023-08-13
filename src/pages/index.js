@@ -30,17 +30,17 @@ export default function Home() {
   const [darkMode, setIsDark] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className="bg-white bg-[url('/bg.png')]  bg-cover ">
+      <main className="bg-white bg-cover ">
         <nav className="py-10 pb-12 flex justify-between text-white rounded-md bg-gradient-to-br from-slate-950 to-teal-950 px-10 md:px-20 lg:px-40 ">
           <h1 className="text-2xl font-burtons ">DEVEOPED BY TRUMAN</h1>
 
           <ul className="flex items-center">
-            <li>
+            {/* <li>
               <BsFillMoonStarsFill
                 onClick={() => setIsDark(!darkMode)}
                 className="cursor-pointer text-2xl"
               />
-            </li>
+            </li> */}
             <li className="  transition duration-500 ease-in-out  hover:scale-125">
               <a
                 className="transition duration-500 ease-in-out bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8   hover:text-teal-900 hover:bg-teal-800"
@@ -52,8 +52,8 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <div className="px-1 py-1 md:px-20 lg:px-40 backdrop-blur-sm  ">
-          <section className="min-h-screen  rounded-2xl bg-teal-50 my-10 p-3 ">
+        <div className=" py-1  backdrop-blur-sm  ">
+          <section className="min-h-screen  rounded-2xl bg-teal-50  p-3 ">
             <div className="text-yellow-950 text-center p-10 md:p-20">
               <h2 className="text-5xl py-2 text-teal-700 font-medium md:text-6xl">
                 TRUMAN GUO
@@ -83,7 +83,7 @@ export default function Home() {
               <Image src={deved} layout="fill" objectFit="cover" />
             </div>
           </section>
-          <section className="pb-10 rounded-2xl bg-teal-50 my-10 p-3">
+          <section className="pb-10 rounded-2xl  my-10 py-3 px-10 md:px-20 lg:px-40">
             <Abilities />
             <div className="flex flex-col lg:flex-row md:gap-5 ">
               <Service content={content1} title={title1} src={design} />
@@ -91,7 +91,7 @@ export default function Home() {
               <Service content={content3} title={title3} src={consulting} />
             </div>
           </section>
-          <section className="rounded-2xl shadow-lg px-10 bg-teal-50 my-10 p-3">
+          <section className="rounded-2xl shadow-lg  bg-teal-50  my-10 py-3 px-10 md:px-20 lg:px-40">
             <div>
               <h3 className="text-3xl py-1">Portfolio</h3>
               <h3 className="text-lg font-medium pt-8 pb-2"> Designs</h3>
