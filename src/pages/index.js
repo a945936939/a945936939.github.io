@@ -137,7 +137,7 @@ export default function Home() {
                 <a
                   href="https://github.com/a945936939/Prototype3
 "
-                  className="text-md py-2 leading-8 text-gray-800 cursor-pointer hover:underline"
+                  className="text-md py-2 leading-8 text-gray-800 cursor-pointer underline hover:text-red-500"
                 >
                   https://github.com/a945936939/Prototype3
                 </a>
@@ -159,7 +159,7 @@ export default function Home() {
                 <a
                   href="https://github.com/a945936939/Prototype3
 "
-                  className="text-md py-2 leading-8 text-gray-800 cursor-pointer hover:underline"
+                  className="text-md py-2 leading-8 text-gray-800 cursor-pointer underline hover:text-red-500"
                 >
                   https://github.com/a945936939/FIT5046
                 </a>
@@ -225,7 +225,7 @@ export default function Home() {
                 <a
                   href="https://github.com/a945936939/Prototype3
 "
-                  className="text-md py-2 leading-8 text-gray-800 cursor-pointer hover:underline"
+                  className="text-md py-2 leading-8 text-gray-800 cursor-pointer underline hover:text-red-500"
                 >
                   https://github.com/a945936939/FutureCity
                 </a>
