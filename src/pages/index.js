@@ -127,11 +127,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  transition={{ duration: 1.5 }}
-                  whileInView={{ opacity: 1 }}
-                >
+
                   <div className="flex-1 basis-1/3">
                     <Image
                       className="rounded-lg object-cover"
@@ -141,7 +137,7 @@ export default function Home() {
                       src={game1}
                     />
                   </div>
-                </motion.div>
+           
                 <div className="flex-1 basis-1/3">
                   <h3 className="pb-2 pt-8 text-2xl font-medium"> Jump Man</h3>
                   <p className="text-md py-2 leading-8 text-gray-800">
@@ -174,11 +170,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <motion.div
-                initial={{ opacity: 0 }}
-                transition={{ duration: 1.5 }}
-                whileInView={{ opacity: 1 }}
-              >
+      
                 <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
                   <div className="flex-1 basis-1/3">
                     <h3 className="pb-2 pt-8 text-2xl font-medium">
@@ -232,12 +224,7 @@ export default function Home() {
                     />
                   </div>
                 </div>
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0 }}
-                transition={{ duration: 1.5 }}
-                whileInView={{ opacity: 1 }}
-              >
+       
                 <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
                   <div className="flex-1 basis-1/3">
                     <Image
@@ -276,7 +263,7 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-              </motion.div>
+      
             </section>
           </div>
         </div>
