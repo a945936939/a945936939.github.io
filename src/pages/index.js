@@ -1,6 +1,6 @@
 import { motion, useScroll } from "framer-motion";
 import { AiFillLinkedin, AiFillGithub, AiFillPlayCircle } from "react-icons/ai";
-
+import Footer from "./Footer";
 import Image from "next/image";
 import deved from "public/dev-ed-wave.png";
 import design from "public/design.png";
@@ -52,7 +52,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="">
+          
             <section className="min-h-screen bg-teal-50 p-3">
               <div className="p-10 text-center text-yellow-950 md:p-20">
                 <h2 className="py-2 text-5xl font-medium text-teal-700 md:text-6xl">
@@ -104,7 +104,7 @@ export default function Home() {
               </motion.div>
             </div>
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-              <section className="bg-white px-10 py-3 pb-10 md:px-20 lg:px-40">
+              <section className="bg-white px-10 py-10 pb-10 md:px-20 lg:px-40">
                 <Abilities />
                 <div className="my-10 flex flex-col md:gap-5 lg:flex-row ">
                   <Service content={content1} title={title1} src={design} />
@@ -265,10 +265,12 @@ export default function Home() {
                 </div>
       
             </section>
-          </div>
+          <section>
+            <Footer />
+          </section>
         </div>
       </main>
-      ;
+      
     </div>
   );
 }
