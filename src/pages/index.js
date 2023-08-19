@@ -1,4 +1,4 @@
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import { AiFillLinkedin, AiFillGithub, AiFillPlayCircle } from "react-icons/ai";
 import Footer from "./Footer";
 import Image from "next/image";
@@ -29,7 +29,7 @@ export default function Home() {
   const [darkMode, setIsDark] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className=" bg-[url('/campus.png')] bg-cover bg-fixed">
+      <main className=" font- bg-[url('/campus.png')] bg-cover bg-fixed">
         <div className="backdrop-blur-sm">
           <nav className="flex justify-between bg-gradient-to-br from-slate-950 to-teal-950 px-10 py-10 pb-12 text-white md:px-20 lg:px-40 ">
             <h1 className="font-roboto text-2xl ">TRUMAN PORTFOLIO</h1>
