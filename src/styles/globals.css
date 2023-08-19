@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 :root {
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -16,11 +15,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
-
-@layer base {
-  @font-face {
-    font-family: "Roboto";
-    src: url("/public/Roboto/Roboto-Regular.ttf") format("ttf");
-  }
 }

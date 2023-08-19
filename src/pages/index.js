@@ -29,7 +29,7 @@ export default function Home() {
   const [darkMode, setIsDark] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className=" font- bg-[url('/campus.png')] bg-cover bg-fixed">
+      <main className=" font-roboto bg-[url('/campus.png')] bg-cover bg-fixed font-black">
         <div className="backdrop-blur-sm">
           <nav className="flex justify-between bg-gradient-to-br from-slate-950 to-teal-950 px-10 py-10 pb-12 text-white md:px-20 lg:px-40 ">
             <h1 className="font-roboto text-2xl ">TRUMAN PORTFOLIO</h1>
@@ -43,7 +43,7 @@ export default function Home() {
             </li> */}
               <li className="transition duration-500 ease-in-out hover:scale-125">
                 <a
-                  className="ml-8 rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white transition duration-500 ease-in-out hover:bg-teal-800 hover:text-teal-900"
+                  className="ml-8 rounded-md bg-gradient-to-r from-cyan-500 to-teal-700 px-4 py-2 text-white transition duration-500 ease-in-out hover:bg-teal-800 hover:text-teal-900"
                   href="/public/Resume.pdf"
                   download
                 >
@@ -79,7 +79,7 @@ export default function Home() {
                 onClick={() => window.open("https://github.com/a945936939")}
               />
             </div>
-            <div className="relative mx-auto my-10 mt-1 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-500 sm:mt-5 sm:h-48 sm:w-48 md:mt-10 md:h-96 md:w-96">
+            <div className="relative mx-auto my-10 mt-1 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700 sm:mt-5 sm:h-48 sm:w-48 md:mt-10 md:h-96 md:w-96">
               <motion.div
                 initial={{ opacity: 0 }}
                 transition={{ duration: 1.5 }}
@@ -118,8 +118,8 @@ export default function Home() {
               <p className="text-md py-2 leading-8 text-gray-800">
                 Design is the key to a great user experience. I can help the
                 team to design aesthetic products in
-                <span className="text-teal-500"> Web development </span>and some
-                <span className="text-teal-500"> Games</span>
+                <span className="text-teal-700"> Web development </span>and some
+                <span className="text-teal-700"> Games</span>
               </p>
             </div>
 
@@ -137,31 +137,37 @@ export default function Home() {
               <div className="flex-1 basis-1/3">
                 <h3 className="pb-2 pt-8 text-2xl font-medium"> Jump Man</h3>
                 <p className="text-md py-2 leading-8 text-gray-800">
-                  Press the <span className="text-teal-500">spacebar</span> to
+                  Press the <span className="text-teal-700">spacebar</span> to
                   jump to avoid the obstacles.
                 </p>
                 <p className="text-md py-2 leading-8 text-gray-800">
-                  Using <span className="text-teal-500">Unity3D</span> with{" "}
-                  <span className="text-teal-500">C#</span>, deployed on
+                  Using <span className="text-teal-700">Unity3D</span> with{" "}
+                  <span className="text-teal-700">C#</span>, deployed on
                   itch.io(indie game website)
                 </p>
                 <div className="flex justify-around text-center">
-                  <div className="flex">
+                  <div className="mt-8 flex">
                     <AiFillPlayCircle
                       className="h-8 w-8"
                       onClick={() => {
                         window.open("https://truman1998.itch.io/jump-man");
                       }}
                     />
-                    <p className="font-burtons  text-lg underline">play</p>
+                    <p className="font-burtons  text-2xl underline underline-offset-8">
+                      Play
+                    </p>
                   </div>
-
-                  <AiFillGithub
-                    className="h-8 w-8"
-                    onClick={() => {
-                      window.open("https://github.com/a945936939/Prototype3");
-                    }}
-                  />
+                  <div className="mt-8 flex">
+                    <AiFillGithub
+                      className="h-8 w-8"
+                      onClick={() => {
+                        window.open("https://github.com/a945936939/Prototype3");
+                      }}
+                    />
+                    <p className="font-burtons  text-2xl underline underline-offset-8">
+                      Code
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -171,21 +177,21 @@ export default function Home() {
                 <h3 className="pb-2 pt-8 text-2xl font-medium"> Fitness app</h3>
                 <p className="text-md py-2 leading-8 text-gray-800">
                   Built a fitness app on{" "}
-                  <span className="text-teal-500">Android Platform</span>{" "}
+                  <span className="text-teal-700">Android Platform</span>{" "}
                   (demonstrated on emulators)
                 </p>
 
-                <p className="text-md py-2 leading-8 text-gray-800">
-                  Github Link(private visibility , will change to public if
-                  wants to have a look):
-                </p>
-                <a
-                  href="https://github.com/a945936939/Prototype3
-"
-                  className="text-md cursor-pointer py-2 leading-8 text-gray-800 underline hover:text-red-500"
-                >
-                  https://github.com/a945936939/FIT5046
-                </a>
+                <div className="mt-8 flex justify-center">
+                  <AiFillGithub
+                    className="h-8 w-8"
+                    onClick={() => {
+                      window.open("https://github.com/a945936939/FIT5046");
+                    }}
+                  />
+                  <p className="font-burtons  text-2xl underline underline-offset-8">
+                    Code
+                  </p>
+                </div>
               </div>
 
               <div className="basis-1/7 flex-1">
@@ -234,7 +240,7 @@ export default function Home() {
                 </h3>
                 <p className="text-md py-2 leading-8 text-gray-800">
                   Using{" "}
-                  <span className="text-teal-500">
+                  <span className="text-teal-700">
                     PHP, CSS, Bootstrap, Cloud Deploy
                   </span>{" "}
                   and built a website which can track your carbon footprint
@@ -242,17 +248,17 @@ export default function Home() {
                   modified google map.
                 </p>
 
-                <p className="text-md py-2 leading-8 text-gray-800">
-                  Github Link(private visibility , will change to public if
-                  wants to have a look):
-                </p>
-                <a
-                  href="https://github.com/a945936939/Prototype3
-"
-                  className="text-md cursor-pointer py-2 leading-8 text-gray-800 underline hover:text-red-500"
-                >
-                  https://github.com/a945936939/FutureCity
-                </a>
+                <div className="mt-8 flex justify-center">
+                  <AiFillGithub
+                    className="h-8 w-8"
+                    onClick={() => {
+                      window.open(" https://github.com/a945936939/FutureCity");
+                    }}
+                  />
+                  <p className="font-burtons  text-2xl underline underline-offset-8">
+                    Code
+                  </p>
+                </div>
               </div>
             </div>
           </section>

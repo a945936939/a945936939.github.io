@@ -17,6 +17,8 @@ module.exports = {
       backgroundSize: {
         "50%": "30%",
       },
+      fontFamily: { roboto: ["Roboto"] },
+
     },
   },
   plugins: [],
