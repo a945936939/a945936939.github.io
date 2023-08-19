@@ -18,7 +18,7 @@ module.exports = {
         "50%": "30%",
       },
 
-      fontFamily: { burtons: "burtons" },
+      fontFamily: { roboto: "roboto" },
     },
   },
   plugins: [],
