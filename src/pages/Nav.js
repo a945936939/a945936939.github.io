@@ -9,9 +9,9 @@ export default function Nav() {
           <li className="mr-6">
             <Link href="/">Home</Link>
           </li>
-          <li className="mr-6">
+          {/* <li className="mr-6">
             <Link href="About">About</Link>
-          </li>
+          </li> */}
           <li className="mr-6">
             <Link href="Contact">Contact</Link>
           </li>
