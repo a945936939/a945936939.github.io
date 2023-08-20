@@ -18,7 +18,7 @@ module.exports = {
         "50%": "30%",
       },
       fontFamily: { roboto: ["Roboto"] },
-
+      fontWeight: { black: ["900"] },
     },
   },
   plugins: [],
