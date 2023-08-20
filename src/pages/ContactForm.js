@@ -47,6 +47,7 @@ export default function ContactForm() {
             type="text"
             name="user_name"
             placeholder="Your Subject"
+            required
           />
         </div>
         <div className="mb-10 flex flex-col  items-start justify-start">
@@ -56,6 +57,7 @@ export default function ContactForm() {
             type="email"
             name="user_email"
             placeholder="e.g 123@gmail.com"
+            required
           />
         </div>
         <div className="mb-10 flex flex-col items-start justify-start">
@@ -63,6 +65,7 @@ export default function ContactForm() {
           <textarea
             className="h-16 w-full bg-gray-200  lg:h-24"
             name="message"
+            required
           />
         </div>
 
