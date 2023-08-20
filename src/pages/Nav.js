@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-export default function () {
+export default function Nav() {
   return (
     <div>
       <nav className="flex justify-between bg-gradient-to-br from-slate-950 to-teal-950 px-10 py-10 pb-12 text-white md:px-20 lg:px-40 ">
