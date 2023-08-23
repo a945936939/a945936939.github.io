@@ -31,7 +31,7 @@ export default function ContactForm() {
         ref={form}
         onSubmit={sendEmail}
       >
-        <div className="mb-10 flex flex-col  justify-center">
+        <div className="mb-10 flex flex-col  justify-center text-sm md:text-base">
           <label className="mb-5">Subject</label>
           <input
             className="bg-gray-200"
@@ -40,7 +40,7 @@ export default function ContactForm() {
             placeholder=""
           />
         </div>
-        <div className="mb-10 flex flex-col  justify-center">
+        <div className="mb-10 flex flex-col  justify-center text-sm md:text-base">
           <label className="mb-5">Email</label>
           <input
             className="bg-gray-200"
@@ -49,7 +49,7 @@ export default function ContactForm() {
             placeholder="e.g 123@gmail.com"
           />
         </div>
-        <div className="mb-10 flex flex-col justify-center">
+        <div className="mb-10 flex flex-col justify-center text-sm md:text-base ">
           <label className="mb-5">Message</label>
           <textarea className="h-30 bg-gray-200" name="message" />
         </div>
