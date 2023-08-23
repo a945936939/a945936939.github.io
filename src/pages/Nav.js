@@ -5,7 +5,7 @@ export default function Nav() {
     <div className="select-none">
       <nav className="flex justify-between bg-gradient-to-br from-slate-950 to-teal-950 px-10 py-10 pb-12 text-white md:px-20 lg:px-40 ">
         <h1 className="mr-3 font-roboto text-xs md:text-2xl">
-          TRUMAN PORTFOLIO
+          <Link href="/">TRUMAN PORTFOLIO</Link>
         </h1>
         <ul className="flex items-center justify-around">
           <li className="mr-6">
