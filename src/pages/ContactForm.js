@@ -34,19 +34,19 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="mx-5 flex h-screen items-center justify-center bg-teal-50 text-center font-roboto text-xl font-medium shadow-2xl transition-all ease-in-out md:mx-20 md:px-20 ">
+    <div className="mx-5 flex h-screen items-center justify-center bg-teal-50 text-center font-roboto text-xl font-medium shadow-2xl transition-all ease-in-out md:mx-10 md:px-5 ">
       <form
-        className="lg:pt-30 flex h-5/6 w-3/4 flex-col justify-start rounded-lg bg-white px-5 pt-10 shadow-xl md:px-8  md:pt-20  "
+        className="lg:pt-30 flex h-5/6 w-4/5 flex-col justify-start rounded-lg bg-white px-5 pt-10 shadow-xl md:w-2/3 md:px-8  md:pt-20 xl:w-1/3  "
         ref={form}
         onSubmit={sendEmail}
       >
         <div className="mb-10 flex flex-col  justify-center text-sm md:text-base">
-          <label className="mb-5">Subject</label>
+          <label className="mb-5">Name</label>
           <input
             className="h-10 w-full  bg-gray-200"
             type="text"
             name="user_name"
-            placeholder="Your Subject"
+            placeholder="Name"
             required
           />
         </div>
@@ -62,7 +62,7 @@ export default function ContactForm() {
         </div>
         <div className="mb-10 flex flex-col justify-center text-sm md:text-base ">
           <label className="mb-5">Message</label>
-          <textarea className="h-30 bg-gray-200" name="message" required />
+          <textarea className="h-60 bg-gray-200" name="message" required />
         </div>
 
         <button

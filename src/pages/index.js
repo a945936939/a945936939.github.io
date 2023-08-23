@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Layout>
-        <section className="min-h-screen bg-teal-50 p-3">
+        <section className="m-auto min-h-screen  bg-teal-50 p-3 ">
           <div className="p-10 text-center text-yellow-950 md:p-20">
             <h2 className="py-2 text-5xl font-medium text-teal-700 md:text-6xl">
               TRUMAN GUO
@@ -64,6 +64,16 @@ export default function Home() {
           </div>
         </section>
 
+        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+          <section className="bg-white px-10 py-10 pb-10 md:px-20 lg:px-40">
+            <Abilities />
+            <div className="my-10 flex flex-col md:gap-5 lg:flex-row ">
+              <Service content={content1} title={title1} src={design} />
+              <Service content={content2} title={title2} src={code} />
+              <Service content={content3} title={title3} src={consulting} />
+            </div>
+          </section>
+        </motion.div>
         <div className="m-24 md:m-48 lg:m-96 ">
           <motion.div
             initial={{ opacity: 0 }}
@@ -75,16 +85,6 @@ export default function Home() {
             </h3>
           </motion.div>
         </div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-          <section className="bg-white px-10 py-10 pb-10 md:px-20 lg:px-40">
-            <Abilities />
-            <div className="my-10 flex flex-col md:gap-5 lg:flex-row ">
-              <Service content={content1} title={title1} src={design} />
-              <Service content={content2} title={title2} src={code} />
-              <Service content={content3} title={title3} src={consulting} />
-            </div>
-          </section>
-        </motion.div>
         <section className="bg-teal-50 px-10 py-10  text-center shadow-lg md:px-20 lg:px-40">
           <div>
             <h3 className="py-1 text-3xl">Work I have done</h3>
