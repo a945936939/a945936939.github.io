@@ -19,7 +19,7 @@ export default function Nav() {
           </li>
         </ul>
         <a
-          className="ml-8 rounded-md bg-gradient-to-r from-cyan-500 to-teal-700 px-4 py-2 text-gray-300 transition duration-500 ease-in-out hover:scale-110 hover:bg-teal-800 hover:text-white"
+          className="ml-8 rounded-md bg-gradient-to-r from-cyan-500 to-teal-700 px-4 py-2 font-extrabold text-gray-100 transition duration-500 ease-in-out hover:scale-110 hover:bg-teal-800 hover:text-white"
           href="/Resume.pdf"
           download
         >
