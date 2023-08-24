@@ -104,40 +104,25 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={game1}
+                src={futurecity}
               />
             </div>
-
             <div className="flex-1 basis-1/3">
-              <h3 className="pb-2 pt-8 text-2xl font-medium"> Jump Man</h3>
+              <h3 className="pb-2 pt-8 text-2xl font-medium">
+                {" "}
+                Emission Tracker
+              </h3>
               <p className="text-md py-2 leading-8 text-gray-800">
-                Press the <span className="text-teal-700">spacebar</span> to
-                jump to avoid the obstacles.
+                Using{" "}
+                <span className="text-teal-700">
+                  PHP, CSS, Bootstrap, Cloud Deploy
+                </span>{" "}
+                and built a website which can track your carbon footprint based
+                on your destination, and will show the result on our modified
+                google map.
               </p>
-              <p className="text-md py-2 leading-8 text-gray-800">
-                Using <span className="text-teal-700">Unity3D</span> with
-                <span className="text-teal-700">C#</span>, deployed on
-                itch.io(indie game website)
-              </p>
-              <div className="flex justify-around text-center">
-                <div className="mt-8 flex cursor-pointer select-none">
-                  <AiFillPlayCircle
-                    className="h-8 w-8"
-                    onClick={() => {
-                      window.open("https://truman1998.itch.io/jump-man");
-                    }}
-                  />
-                  <p
-                    onClick={() => {
-                      window.open("https://truman1998.itch.io/jump-man");
-                    }}
-                    className="font-burtons  text-2xl underline underline-offset-8"
-                  >
-                    Play
-                  </p>
-                </div>
-                <CodePage link="https://github.com/a945936939/Prototype3" />
-              </div>
+
+              <CodePage link=" https://github.com/a945936939/FutureCity" />
             </div>
           </div>
 
@@ -188,25 +173,40 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={futurecity}
+                src={game1}
               />
             </div>
-            <div className="flex-1 basis-1/3">
-              <h3 className="pb-2 pt-8 text-2xl font-medium">
-                {" "}
-                Emission Tracker
-              </h3>
-              <p className="text-md py-2 leading-8 text-gray-800">
-                Using{" "}
-                <span className="text-teal-700">
-                  PHP, CSS, Bootstrap, Cloud Deploy
-                </span>{" "}
-                and built a website which can track your carbon footprint based
-                on your destination, and will show the result on our modified
-                google map.
-              </p>
 
-              <CodePage link=" https://github.com/a945936939/FutureCity" />
+            <div className="flex-1 basis-1/3">
+              <h3 className="pb-2 pt-8 text-2xl font-medium"> Jump Man</h3>
+              <p className="text-md py-2 leading-8 text-gray-800">
+                Press the <span className="text-teal-700">spacebar</span> to
+                jump to avoid the obstacles.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800">
+                Using <span className="text-teal-700">Unity3D</span> with
+                <span className="text-teal-700">C#</span>, deployed on
+                itch.io(indie game website)
+              </p>
+              <div className="flex justify-around text-center">
+                <div className="mt-8 flex cursor-pointer select-none">
+                  <AiFillPlayCircle
+                    className="h-8 w-8"
+                    onClick={() => {
+                      window.open("https://truman1998.itch.io/jump-man");
+                    }}
+                  />
+                  <p
+                    onClick={() => {
+                      window.open("https://truman1998.itch.io/jump-man");
+                    }}
+                    className="font-burtons  text-2xl underline underline-offset-8"
+                  >
+                    Play
+                  </p>
+                </div>
+                <CodePage link="https://github.com/a945936939/Prototype3" />
+              </div>
             </div>
           </div>
         </section>

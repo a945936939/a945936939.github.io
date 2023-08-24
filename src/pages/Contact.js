@@ -6,6 +6,7 @@ export default function Contact() {
     <div>
       <Layout>
         <ContactForm />
+        
       </Layout>
     </div>
   );
