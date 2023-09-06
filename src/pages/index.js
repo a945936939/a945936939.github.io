@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
+
 import { AiFillLinkedin, AiFillGithub, AiFillPlayCircle } from "react-icons/ai";
+
 import Image from "next/image";
 import deved from "public/dev-ed-wave.png";
 import design from "public/design.png";
@@ -11,10 +13,16 @@ import android3 from "public/android3.png";
 import consulting from "public/consulting.png";
 import futurecity from "public/futurecity.png";
 import game1 from "public/game1.png";
+import htmlPic from "public/icons/icons8-html-48.png";
+import cssPic from "public/icons/icons8-css-48.png";
+import jsPic from "public/icons/icons8-javascript-48.png";
+import reactPic from "public/icons/icons8-react-native-48.png";
+import tailwindPic from "public/icons/icons8-tailwind-css-48.png";
 import { useState } from "react";
 import Service from "./Service";
 import Abilities from "./Abilities";
 import CodePage from "./CodePage";
+import css from "styled-jsx/css";
 export default function Home() {
   const content1 =
     "After years of training and practice, I have become a developer and familiar with several tech stacks.";
@@ -29,6 +37,11 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Layout>
+        <script
+          src="https://kit.fontawesome.com/d6e07d22b6.js"
+          crossorigin="anonymous"
+        ></script>
+
         <section className="m-auto min-h-screen  bg-teal-50 p-3 ">
           <div className="p-10 text-center text-yellow-950 md:p-20">
             <h2 className="py-2 text-5xl font-medium text-teal-700 md:text-6xl">
@@ -40,6 +53,15 @@ export default function Home() {
               engineer who loves programming in Web and Games.
             </p>
           </div>
+          <div className="mx-auto flex items-center justify-center  ">
+            <p>tech stack</p>
+            <Image src={htmlPic} />
+            <Image src={cssPic} />
+            <Image src={jsPic} />
+            <Image src={reactPic} />
+            <Image src={tailwindPic} />
+          </div>
+
           <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600">
             <AiFillLinkedin
               className="transition duration-500 ease-in-out hover:scale-125 hover:cursor-pointer"
@@ -109,7 +131,6 @@ export default function Home() {
             </div>
             <div className="flex-1 basis-1/3">
               <h3 className="pb-2 pt-8 text-2xl font-medium">
-                {" "}
                 Emission Tracker
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800">

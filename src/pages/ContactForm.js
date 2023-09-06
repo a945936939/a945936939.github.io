@@ -57,7 +57,7 @@ export default function ContactForm() {
             type="email"
             name="user_email"
             placeholder="e.g 123@gmail.com"
-            required
+            required      
           />
         </div>
         <div className="mb-10 flex flex-col justify-center text-sm md:text-base ">
