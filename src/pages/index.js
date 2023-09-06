@@ -37,11 +37,6 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Layout>
-        <script
-          src="https://kit.fontawesome.com/d6e07d22b6.js"
-          crossorigin="anonymous"
-        ></script>
-
         <section className="m-auto min-h-screen  bg-teal-50 p-3 ">
           <div className="p-10 text-center text-yellow-950 md:p-20">
             <h2 className="py-2 text-5xl font-medium text-teal-700 md:text-6xl">
@@ -54,7 +49,7 @@ export default function Home() {
             </p>
           </div>
           <div className="mx-auto flex items-center justify-center  ">
-            <p>tech stack</p>
+            <p>Tech Stack</p>
             <Image src={htmlPic} />
             <Image src={cssPic} />
             <Image src={jsPic} />
@@ -152,7 +147,7 @@ export default function Home() {
               <h3 className="pb-2 pt-8 text-2xl font-medium"> Fitness app</h3>
               <p className="text-md py-2 leading-8 text-gray-800">
                 Built a fitness app on{" "}
-                <span className="text-teal-700">Android Platform</span>{" "}
+                <span className="text-teal-700">Android Platform</span>
                 (demonstrated on emulators)
               </p>
               <CodePage link="https://github.com/a945936939/FIT5046" />

@@ -5,8 +5,9 @@ const roboto = Roboto({
   subsets: ["latin"],
 });
 export default function App({ Component, pageProps }) {
-  return;
-  <div className={roboto.className}>
-    <Component {...pageProps} />;
-  </div>;
+  return (
+    <div className={roboto.className}>
+      <Component {...pageProps} />
+    </div>
+  );
 }
