@@ -3,12 +3,12 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <div className="  select-none">
-      <nav className=" flex  w-screen justify-between   bg-gradient-to-br from-black to-teal-900 px-10 py-10  text-white md:px-20 lg:px-40">
-        <h1 className="mr-3 font-roboto text-xs md:text-3xl">
+      <nav className=" flex justify-between   bg-gradient-to-br from-black to-teal-900 px-10 py-10  text-white md:px-20 lg:px-40">
+        <h1 className="mr-3  text-xs md:text-3xl">
           <Link href="/">TRUMAN PORTFOLIO</Link>
         </h1>
         <div className="flex">
-          <ul className="flex items-center justify-around text-2xl">
+          <ul className="flex items-center justify-around text-xs md:text-2xl">
             <li className="mr-6">
               <Link href="/">Home</Link>
             </li>

@@ -22,7 +22,7 @@ import { useState } from "react";
 import Service from "./Service";
 import Abilities from "./Abilities";
 import CodePage from "./CodePage";
-import css from "styled-jsx/css";
+
 export default function Home() {
   const content1 =
     "After years of training and practice, I have become a developer and familiar with several tech stacks.";
@@ -42,19 +42,22 @@ export default function Home() {
             <h2 className="py-2 text-5xl font-medium text-teal-700 md:text-6xl">
               TRUMAN GUO
             </h2>
+
             <h3 className="py-2 text-2xl md:text-3xl">Software Engineer.</h3>
             <p className="text-md md-text-xl mx-auto max-w-lg py-5 leading-8 text-gray-800 ">
               Being Passionate,being innovative,I am a graduate software
               engineer who loves programming in Web and Games.
             </p>
           </div>
-          <div className="mx-auto flex items-center justify-center  ">
-            <p>Tech Stack</p>
-            <Image src={htmlPic} />
-            <Image src={cssPic} />
-            <Image src={jsPic} />
-            <Image src={reactPic} />
-            <Image src={tailwindPic} />
+          <div className="flex justify-center">
+            <div className=" md: mb-20 flex  w-3/4 items-center justify-around md:w-1/2  ">
+              <h5 className="font-bold">TECH STACK |</h5>
+              <Image src={htmlPic} />
+              <Image src={cssPic} />
+              <Image src={jsPic} />
+              <Image src={reactPic} />
+              <Image src={tailwindPic} />
+            </div>
           </div>
 
           <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600">
