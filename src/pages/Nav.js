@@ -9,14 +9,14 @@ export default function Nav() {
         </h1>
         <div className="flex">
           <ul className="flex items-center justify-around text-xs md:text-2xl">
-            <li className="mr-6">
-              <Link href="/">Home</Link>
+            <li className="mr-6  transition duration-500 ease-in-out hover:scale-110  hover:text-white">
+              <Link href="/">HOME</Link>
             </li>
             {/* <li className="mr-6">
             <Link href="About">About</Link>
           </li> */}
-            <li className="mr-6">
-              <Link href="Contact">Contact</Link>
+            <li className="mr-6  transition duration-500 ease-in-out hover:scale-110  hover:text-white">
+              <Link href="Contact">CONTACT</Link>
             </li>
           </ul>
           <a
@@ -24,7 +24,7 @@ export default function Nav() {
             href="/Resume.pdf"
             download
           >
-            Resume
+            RESUME
           </a>
         </div>
       </nav>

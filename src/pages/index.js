@@ -22,6 +22,7 @@ import { useState } from "react";
 import Service from "./Service";
 import Abilities from "./Abilities";
 import CodePage from "./CodePage";
+import Background from "./Background";
 
 export default function Home() {
   const content1 =
@@ -38,10 +39,11 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <Layout>
         <section className="m-auto min-h-screen  bg-teal-50 p-3 ">
-          <div className="p-10 text-center text-yellow-950 md:p-20">
+          <div className="bg p-10 text-center text-yellow-950 md:p-20">
             <h2 className="py-2 text-5xl font-medium text-teal-700 md:text-6xl">
               TRUMAN GUO
             </h2>
+            <Background />
             <div className="text-4xl">
               <Typewriter
                 options={{
@@ -51,7 +53,6 @@ export default function Home() {
                 }}
               />
             </div>
-
             <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600">
               <AiFillLinkedin
                 className="transition duration-500 ease-in-out hover:scale-125 hover:cursor-pointer"
