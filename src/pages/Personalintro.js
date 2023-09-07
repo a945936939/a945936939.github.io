@@ -25,7 +25,7 @@ export default function Personalintro() {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
-          backgroundColor: 0x2423d,
+          backgroundColor: 0x424a,
           quantity: 3.0,
         }),
       );

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <div className="  select-none">
-      <nav className=" flex justify-between   bg-[#02423d] px-10 py-10  text-white md:px-20 lg:px-40">
+      <nav className=" flex justify-between   bg-[#00424a] px-10 py-10  text-white md:px-20 lg:px-40">
         <h1 className="mr-3  text-xs md:text-3xl">
           <Link href="/">TRUMAN PORTFOLIO</Link>
         </h1>
