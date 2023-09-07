@@ -55,7 +55,7 @@ export default function Home() {
             whileInView={{ opacity: 1 }}
           >
             <h3 className="py-1 text-center text-xl text-white md:text-2xl lg:text-6xl">
-              PASSIONATE INNOVATIVE
+              PASSIONATE , INNOVATIVE
             </h3>
           </motion.div>
         </div>

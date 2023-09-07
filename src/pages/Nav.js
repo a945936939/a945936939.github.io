@@ -1,14 +1,23 @@
 import React from "react";
 import Link from "next/link";
+import Logo from "public/icons/truman-logo.png";
+import Image from "next/image";
 export default function Nav() {
   return (
     <div className="  select-none">
-      <nav className=" flex justify-between   bg-[#00424a] px-10 py-10  text-white md:px-20 lg:px-40">
-        <h1 className="mr-3  text-xs md:text-3xl">
-          <Link href="/">TRUMAN PORTFOLIO</Link>
-        </h1>
-        <div className="flex">
-          <ul className="flex items-center justify-around text-xs md:text-2xl">
+      <nav className=" flex justify-between   bg-[#00424a]  text-white ">
+        <Link href="/">
+          {/* <Image
+            className="ml-6 mt-6"
+            src={Logo}
+            alt="logo"
+            width={100}
+            height={100}
+          /> */}
+        </Link>
+
+        <div className="flex px-10 py-10 md:px-20 lg:px-40 ">
+          <ul className="flex items-center justify-around text-xs md:text-lg">
             <li className="mr-6  transition duration-500 ease-in-out hover:scale-110  hover:text-white">
               <Link href="/">HOME</Link>
             </li>
