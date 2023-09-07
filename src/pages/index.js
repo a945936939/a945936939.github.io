@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
 import { AiFillLinkedin, AiFillGithub, AiFillPlayCircle } from "react-icons/ai";
-import Typewriter from "typewriter-effect";
+
 import Image from "next/image";
-import deved from "public/dev-ed-wave.png";
+
 import design from "public/design.png";
 import Layout from "./Layout";
 import code from "public/code.png";
@@ -13,16 +13,12 @@ import android3 from "public/android3.png";
 import consulting from "public/consulting.png";
 import futurecity from "public/futurecity.png";
 import game1 from "public/game1.png";
-import htmlPic from "public/icons/icons8-html-48.png";
-import cssPic from "public/icons/icons8-css-48.png";
-import jsPic from "public/icons/icons8-javascript-48.png";
-import reactPic from "public/icons/icons8-react-native-48.png";
-import tailwindPic from "public/icons/icons8-tailwind-css-48.png";
+
 import { useState } from "react";
 import Service from "./Service";
 import Abilities from "./Abilities";
 import CodePage from "./CodePage";
-import Background from "./Background";
+import Personalintro from "./Personalintro";
 
 export default function Home() {
   const content1 =
@@ -38,61 +34,8 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Layout>
-        <section className="m-auto min-h-screen  bg-teal-50 p-3 ">
-          <div className="bg p-10 text-center text-yellow-950 md:p-20">
-            <h2 className="py-2 text-5xl font-medium text-teal-700 md:text-6xl">
-              TRUMAN GUO
-            </h2>
-            <Background />
-            <div className="text-4xl">
-              <Typewriter
-                options={{
-                  strings: ["Software Engineer.", "Developer", "Desginer"],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </div>
-            <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600">
-              <AiFillLinkedin
-                className="transition duration-500 ease-in-out hover:scale-125 hover:cursor-pointer"
-                onClick={() =>
-                  window.open(
-                    "https://www.linkedin.com/in/truman-guo-946a80204/",
-                  )
-                }
-              />
-
-              <AiFillGithub
-                className="transition duration-500 ease-in-out hover:scale-125 hover:cursor-pointer"
-                onClick={() => window.open("https://github.com/a945936939")}
-              />
-            </div>
-            <p className="text-md md-text-xl mx-auto max-w-lg py-5 leading-8 text-gray-800 ">
-              Being Passionate,being innovative,I am a graduate software
-              engineer who loves programming in Web and Games.
-            </p>
-          </div>
-          <div className="flex justify-center">
-            <div className=" md: mb-20 flex  w-3/4 items-center justify-around md:w-1/2  ">
-              <h5 className="text-lg font-bold">TECH STACK |</h5>
-              <Image src={htmlPic} />
-              <Image src={cssPic} />
-              <Image src={jsPic} />
-              <Image src={reactPic} />
-              <Image src={tailwindPic} />
-            </div>
-          </div>
-
-          <div className="relative mx-auto my-10 mt-1 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700 sm:mt-5 sm:h-48 sm:w-48 md:mt-10 md:h-96 md:w-96">
-            <motion.div
-              initial={{ opacity: 0 }}
-              transition={{ duration: 1.5 }}
-              whileInView={{ opacity: 1 }}
-            >
-              <Image src={deved} layout="fill" objectFit="cover" />
-            </motion.div>
-          </div>
+        <section className="m-auto min-h-screen  bg-teal-50  ">
+          <Personalintro />
         </section>
 
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
