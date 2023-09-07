@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { AiFillLinkedin, AiFillGithub, AiFillPlayCircle } from "react-icons/ai";
-
+import Typewriter from "typewriter-effect";
 import Image from "next/image";
 import deved from "public/dev-ed-wave.png";
 import design from "public/design.png";
@@ -42,8 +42,31 @@ export default function Home() {
             <h2 className="py-2 text-5xl font-medium text-teal-700 md:text-6xl">
               TRUMAN GUO
             </h2>
+            <div className="text-4xl">
+              <Typewriter
+                options={{
+                  strings: ["Software Engineer.", "Developer", "Desginer"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </div>
 
-            <h3 className="py-2 text-2xl md:text-3xl">Software Engineer.</h3>
+            <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600">
+              <AiFillLinkedin
+                className="transition duration-500 ease-in-out hover:scale-125 hover:cursor-pointer"
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/truman-guo-946a80204/",
+                  )
+                }
+              />
+
+              <AiFillGithub
+                className="transition duration-500 ease-in-out hover:scale-125 hover:cursor-pointer"
+                onClick={() => window.open("https://github.com/a945936939")}
+              />
+            </div>
             <p className="text-md md-text-xl mx-auto max-w-lg py-5 leading-8 text-gray-800 ">
               Being Passionate,being innovative,I am a graduate software
               engineer who loves programming in Web and Games.
@@ -51,7 +74,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             <div className=" md: mb-20 flex  w-3/4 items-center justify-around md:w-1/2  ">
-              <h5 className="font-bold">TECH STACK |</h5>
+              <h5 className="text-lg font-bold">TECH STACK |</h5>
               <Image src={htmlPic} />
               <Image src={cssPic} />
               <Image src={jsPic} />
@@ -60,19 +83,6 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600">
-            <AiFillLinkedin
-              className="transition duration-500 ease-in-out hover:scale-125 hover:cursor-pointer"
-              onClick={() =>
-                window.open("https://www.linkedin.com/in/truman-guo-946a80204/")
-              }
-            />
-
-            <AiFillGithub
-              className="transition duration-500 ease-in-out hover:scale-125 hover:cursor-pointer"
-              onClick={() => window.open("https://github.com/a945936939")}
-            />
-          </div>
           <div className="relative mx-auto my-10 mt-1 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700 sm:mt-5 sm:h-48 sm:w-48 md:mt-10 md:h-96 md:w-96">
             <motion.div
               initial={{ opacity: 0 }}
