@@ -16,7 +16,7 @@ export default function Nav() {
           /> */}
         </Link>
 
-        <div className="flex px-10 py-10 md:px-20 lg:px-40 ">
+        <div className="flex px-10 py-5 md:px-20 lg:px-40 ">
           <ul className="flex items-center justify-around text-xs md:text-lg">
             <li className="mr-6  transition duration-500 ease-in-out hover:scale-110  hover:text-white">
               <Link href="/">HOME</Link>

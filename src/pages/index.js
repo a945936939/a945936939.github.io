@@ -19,6 +19,7 @@ import Service from "./Service";
 import Abilities from "./Abilities";
 import CodePage from "./CodePage";
 import Personalintro from "./Personalintro";
+import About from "./About";
 
 export default function Home() {
   const content1 =
@@ -37,28 +38,26 @@ export default function Home() {
         <section className="m-auto min-h-screen  bg-teal-50  ">
           <Personalintro />
         </section>
-
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-          <section className="bg-white px-10 py-10 pb-10 md:px-20 lg:px-40">
-            <Abilities />
-            <div className="my-10 flex flex-col md:gap-5 lg:flex-row ">
-              <Service content={content1} title={title1} src={design} />
-              <Service content={content2} title={title2} src={code} />
-              <Service content={content3} title={title3} src={consulting} />
-            </div>
-          </section>
-        </motion.div>
-        <div className="m-24 md:m-48 lg:m-96 ">
-          <motion.div
-            initial={{ opacity: 0 }}
-            transition={{ duration: 1.5 }}
-            whileInView={{ opacity: 1 }}
-          >
+        <section>
+          <div className="m-24 md:m-48 lg:m-96 ">
             <h3 className="py-1 text-center text-xl text-white md:text-2xl lg:text-6xl">
               PASSIONATE , INNOVATIVE
             </h3>
-          </motion.div>
-        </div>
+          </div>
+        </section>
+        <section>
+          <About />
+        </section>
+
+        <section className="bg-white px-10 py-40 pb-10 md:px-20 lg:px-40">
+          <Abilities />
+          <div className="my-10 flex flex-col md:gap-5 lg:flex-row ">
+            <Service content={content1} title={title1} src={design} />
+            <Service content={content2} title={title2} src={code} />
+            <Service content={content3} title={title3} src={consulting} />
+          </div>
+        </section>
+
         <section className="bg-teal-50 px-10 py-10  text-center shadow-lg md:px-20 lg:px-40">
           <div>
             <h3 className="py-1 text-3xl">Work I have done</h3>

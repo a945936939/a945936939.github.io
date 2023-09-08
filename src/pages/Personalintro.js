@@ -39,7 +39,7 @@ export default function Personalintro() {
       <div ref={myRef}>
         <div className="h-screen">
           <div className="bg p-10 text-center text-white md:p-20">
-            <h2 className="py-2 text-5xl font-medium text-white md:text-6xl">
+            <h2 className="py-2 text-5xl font-black text-white md:text-6xl">
               TRUMAN GUO
             </h2>
             {/* <Background /> */}
