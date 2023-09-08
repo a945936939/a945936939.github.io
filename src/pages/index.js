@@ -20,6 +20,7 @@ import Abilities from "./Abilities";
 import CodePage from "./CodePage";
 import Personalintro from "./Personalintro";
 import About from "./About";
+import Contact from "./Contact";
 
 export default function Home() {
   const content1 =
@@ -45,7 +46,7 @@ export default function Home() {
             </h3>
           </div>
         </section>
-        <section>
+        <section id="About">
           <About />
         </section>
 
@@ -181,6 +182,9 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </section>
+        <section id="Contact">
+          <Contact />
         </section>
       </Layout>
     </div>

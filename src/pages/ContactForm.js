@@ -34,7 +34,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="mx-5 flex h-screen items-center justify-center bg-teal-50 text-center font-roboto text-xl font-medium shadow-2xl transition-all ease-in-out md:mx-40 md:px-5 ">
+    <div className="font-roboto  flex h-screen items-center justify-center text-center text-xl font-medium transition-all ease-in-out md:px-5 ">
       <form
         className="lg:pt-30 flex h-5/6 w-4/5 flex-col justify-start rounded-lg bg-white px-5 pt-10 shadow-xl md:w-2/3 md:px-8  md:pt-20 xl:w-1/3  "
         ref={form}
@@ -57,7 +57,7 @@ export default function ContactForm() {
             type="email"
             name="user_email"
             placeholder="e.g 123@gmail.com"
-            required      
+            required
           />
         </div>
         <div className="mb-10 flex flex-col justify-center text-sm md:text-base ">
