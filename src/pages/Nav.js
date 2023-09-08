@@ -19,22 +19,16 @@ export default function Nav() {
         <div className="flex px-10 py-5 md:px-20 lg:px-40 ">
           <ul className="flex items-center justify-around text-xs md:text-lg">
             <li className="mr-6  transition duration-500 ease-in-out hover:scale-110  hover:text-white">
-              <a href="/" scroll={true}>
-                Home
-              </a>
+              <a href="/">Home</a>
             </li>
             {/* <li className="mr-6">
             <Link href="About">About</Link>
           </li> */}
             <li className="mr-6  transition duration-500 ease-in-out hover:scale-110  hover:text-white">
-              <a href="#Contact" scroll={true}>
-                Contact
-              </a>
+              <a href="#Contact">Contact</a>
             </li>
             <li className="mr-6  transition duration-500 ease-in-out hover:scale-110  hover:text-white">
-              <a href="#About" scroll={true}>
-                About
-              </a>
+              <a href="#About">About</a>
             </li>
           </ul>
           <a
