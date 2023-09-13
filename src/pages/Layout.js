@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <>
       {" "}
-      <main className=" bg-[url('/campus.png')] bg-cover bg-fixed font-roboto font-medium">
+      <main className=" bg-[url('/campus.webp')] bg-cover bg-fixed font-roboto font-medium">
         <div className="backdrop-blur-sm">
           <Nav />
           <main>{children}</main>

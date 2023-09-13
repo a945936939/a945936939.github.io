@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from "./Layout";
 import Image from "next/image";
-import Truman from "/public/T.jpg";
-import Truman2 from "/public/T2.jpg";
+import Truman from "/public/T.webp";
+import Truman2 from "/public/T2.webp";
 export default function About() {
   return (
     <div className="flex h-screen flex-col bg-white pb-60 md:flex-row">

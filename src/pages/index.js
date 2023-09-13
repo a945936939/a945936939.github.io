@@ -4,15 +4,15 @@ import { AiFillLinkedin, AiFillGithub, AiFillPlayCircle } from "react-icons/ai";
 
 import Image from "next/image";
 
-import design from "public/design.png";
+import design from "public/design.webp";
 import Layout from "./Layout";
-import code from "public/code.png";
-import android1 from "public/android1.png";
-import android2 from "public/android2.png";
-import android3 from "public/android3.png";
-import consulting from "public/consulting.png";
-import futurecity from "public/futurecity.png";
-import game1 from "public/game1.png";
+import code from "public/code.webp";
+import android1 from "public/android1.webp";
+import android2 from "public/android2.webp";
+import android3 from "public/android3.webp";
+import consulting from "public/consulting.webp";
+import futurecity from "public/futurecity.webp";
+import game1 from "public/game1.webp";
 
 import { useState } from "react";
 import Service from "./Service";

@@ -3,12 +3,12 @@ import BIRDS from "vanta/dist/vanta.birds.min";
 import Image from "next/image";
 import { AiFillLinkedin, AiFillGithub, AiFillPlayCircle } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
-import deved from "public/dev-ed-wave.png";
-import htmlPic from "public/icons/icons8-html-48.png";
-import cssPic from "public/icons/icons8-css-48.png";
-import jsPic from "public/icons/icons8-javascript-48.png";
-import reactPic from "public/icons/icons8-react-native-48.png";
-import tailwindPic from "public/icons/icons8-tailwind-css-48.png";
+import deved from "public/dev-ed-wave.webp";
+import htmlPic from "public/icons/icons8-html-48.webp";
+import cssPic from "public/icons/icons8-css-48.webp";
+import jsPic from "public/icons/icons8-javascript-48.webp";
+import reactPic from "public/icons/icons8-react-native-48.webp";
+import tailwindPic from "public/icons/icons8-tailwind-css-48.webp";
 import { motion } from "framer-motion";
 export default function Personalintro() {
   const [vantaEffect, setVantaEffect] = useState(null);

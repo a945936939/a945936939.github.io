@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import code from "public/code.png";
+import code from "public/code.webp";
 
 import Image from "next/image";
 export default function Service(props) {
