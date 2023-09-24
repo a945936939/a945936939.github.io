@@ -36,11 +36,11 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Layout>
-        <section className="m-auto min-h-screen  bg-teal-50  ">
+        <section className="m-auto h-auto  bg-teal-50  ">
           <Personalintro />
         </section>
         <section>
-          <div className="m-24 md:m-48 lg:m-96 ">
+          <div className="m-48 lg:m-96 ">
             <h3 className="py-1 text-center text-xl text-white md:text-2xl lg:text-6xl">
               PASSIONATE , INNOVATIVE
             </h3>

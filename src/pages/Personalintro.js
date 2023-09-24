@@ -37,7 +37,7 @@ export default function Personalintro() {
   return (
     <>
       <div ref={myRef}>
-        <div className="h-screen">
+        <div className="h-auto">
           <div className="bg p-10 text-center text-white md:p-20">
             <h2 className="py-2 text-5xl font-black text-white md:text-6xl">
               TRUMAN GUO
@@ -83,7 +83,7 @@ export default function Personalintro() {
             </div>
           </div>
 
-          <div className="relative mx-auto my-10 mt-1 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700 sm:mt-5 sm:h-48 sm:w-48 md:mt-10 md:h-96 md:w-96">
+          <div className="relative mx-auto my-12 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700  md:h-64 md:w-64">
             <motion.div
               initial={{ opacity: 0 }}
               transition={{ duration: 1.5 }}
