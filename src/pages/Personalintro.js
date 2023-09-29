@@ -37,7 +37,7 @@ export default function Personalintro() {
   return (
     <>
       <div ref={myRef}>
-        <div className="h-auto">
+        <div className="h-min">
           <div className="bg p-10 text-center text-white md:p-20">
             <h2 className="py-2 text-5xl font-black text-white md:text-6xl">
               TRUMAN GUO
@@ -73,7 +73,7 @@ export default function Personalintro() {
             </p>
           </div>
           <div className="flex justify-center">
-            <div className=" md: mb-20 flex  w-3/4 items-center justify-around md:w-1/2  ">
+            <div className=" flex w-3/4  items-center justify-around md:mb-10 md:w-1/2  ">
               <h5 className="text-lg font-bold text-white">TECH STACK |</h5>
               <Image src={htmlPic} />
               <Image src={cssPic} />
@@ -83,7 +83,7 @@ export default function Personalintro() {
             </div>
           </div>
 
-          <div className="relative mx-auto my-12 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700  md:h-64 md:w-64">
+          <div className="relative mx-auto my-16  h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700  md:h-64 md:w-64">
             <motion.div
               initial={{ opacity: 0 }}
               transition={{ duration: 1.5 }}
