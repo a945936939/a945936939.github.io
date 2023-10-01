@@ -82,7 +82,7 @@ export default function Personalintro() {
               <Image src={tailwindPic} />
             </div>
           </div>
-          <div className="relative mx-auto my-10 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700 py-5 sm:mt-5 sm:h-48 sm:w-48 md:mt-10 md:h-96 md:w-96">
+          <div className="relative mx-auto my-32 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700 py-5 sm:mt-5 sm:h-48 sm:w-48 md:mt-10 md:h-96 md:w-96">
             <motion.div
               initial={{ opacity: 0 }}
               transition={{ duration: 1.5 }}
