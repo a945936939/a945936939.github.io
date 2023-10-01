@@ -40,9 +40,9 @@ export default function Home() {
           <Personalintro />
         </section>
         <section>
-          <div className="m-24 md:m-48 lg:m-96 ">
+          <div className="m-48 lg:m-96 ">
             <h3 className="py-1 text-center text-xl text-white md:text-2xl lg:text-6xl">
-              PASSIONATE , INNOVATIVE
+              PASSIONATE INNOVATIVE
             </h3>
           </div>
         </section>
