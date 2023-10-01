@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Layout>
-        <section className="m-auto min-h-screen  bg-teal-50  ">
+        <section className="m-auto  bg-[#00424a]  ">
           <Personalintro />
         </section>
         <section>
