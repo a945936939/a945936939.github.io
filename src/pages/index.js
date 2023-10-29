@@ -23,6 +23,7 @@ import About from "./About";
 import Contact from "./Contact";
 
 export default function Home() {
+  console.log(process.env.OPENAI_API_KEY);
   const content1 =
     "After years of training and practice, I have become a developer and familiar with several tech stacks.";
   const content2 =
