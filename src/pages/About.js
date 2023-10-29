@@ -12,10 +12,15 @@ export default function About() {
           style={{
             transform: `translateY(145px) translateX(105px)`,
             borderRadius: `50px`,
+            width: `70%`,
           }}
           src={Truman2}
         />
-        <Image fill={false} src={Truman} style={{ borderRadius: `50px` }} />
+        <Image
+          fill={false}
+          src={Truman}
+          style={{ borderRadius: `50px`, width: `70%` }}
+        />
       </div>
 
       <div className="m-auto w-5/6 md:w-1/2 lg:w-1/4">

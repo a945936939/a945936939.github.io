@@ -34,9 +34,9 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="font-roboto  flex h-screen items-center justify-center text-center text-xl font-medium transition-all ease-in-out md:px-5 ">
+    <div className="font-roboto  flex h-auto items-center justify-center pb-5 text-center text-xl font-medium transition-all ease-in-out md:px-5">
       <form
-        className="lg:pt-30 flex h-5/6 w-4/5 flex-col justify-start rounded-lg bg-white px-5 pt-10 shadow-xl md:w-2/3 md:px-8  md:pt-20 xl:w-1/3  "
+        className="lg:pt-30 flex h-5/6 w-4/5 flex-col justify-start rounded-lg bg-white px-5 pb-5 pt-10 shadow-xl md:w-2/3  md:px-8 md:pt-20 xl:w-1/3 "
         ref={form}
         onSubmit={sendEmail}
       >

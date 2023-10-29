@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { AiFillLinkedin, AiFillGithub, AiFillPlayCircle } from "react-icons/ai";
 
 import Image from "next/image";
-
+import youtube from "public/youtube.png";
 import design from "public/design.webp";
 import Layout from "./Layout";
 import code from "public/code.webp";
@@ -146,20 +146,24 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={game1}
+                src={youtube}
               />
             </div>
 
             <div className="flex-1 basis-1/3">
-              <h3 className="pb-2 pt-8 text-2xl font-medium"> Jump Man</h3>
+              <h3 className="pb-2 pt-8 text-2xl font-medium">
+                {" "}
+                Youtube Home Page Clone
+              </h3>
               <p className="text-md py-2 leading-8 text-gray-800">
-                Press the <span className="text-teal-700">spacebar</span> to
-                jump to avoid the obstacles.
+                Using React, Tailwind built a{" "}
+                <span className="text-teal-700">youtube</span> responsive web
+                page.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800">
-                Using <span className="text-teal-700">Unity3D</span> with
-                <span className="text-teal-700">C#</span>, deployed on
-                itch.io(indie game website)
+                Note. It is only the{" "}
+                <span className="text-teal-700">static responsive webpage</span>{" "}
+                to show the resemblance of the youtube home page{" "}
               </p>
               <div className="flex justify-around text-center">
                 <div className="mt-8 flex cursor-pointer select-none">
@@ -171,14 +175,14 @@ export default function Home() {
                   />
                   <p
                     onClick={() => {
-                      window.open("https://truman1998.itch.io/jump-man");
+                      window.open("https://youtube-black-five.vercel.app/");
                     }}
                     className="font-burtons  text-2xl underline underline-offset-8"
                   >
-                    Play
+                    Browse
                   </p>
                 </div>
-                <CodePage link="https://github.com/a945936939/Prototype3" />
+                <CodePage link="https://github.com/a945936939/youtube" />
               </div>
             </div>
           </div>
