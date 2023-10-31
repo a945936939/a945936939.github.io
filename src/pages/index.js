@@ -159,7 +159,7 @@ export default function Home() {
               <p className="text-md py-2 leading-8 text-gray-800">
                 Using React, Tailwind built a{" "}
                 <span className="text-teal-700">youtube</span> responsive web
-                page.
+                page,built with React & Tailwind.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800">
                 Note. It is only the{" "}
