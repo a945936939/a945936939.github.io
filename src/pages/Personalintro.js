@@ -69,7 +69,8 @@ export default function Personalintro() {
             </div>
             <p className="text-md md-text-xl mx-auto max-w-lg py-5 leading-8  ">
               Being Passionate,being innovative,I am a graduate software
-              engineer who loves programming in Web and Games.
+              engineer who loves programming in Web and Games. This webpage is
+              built with React.js and Tailwind.
             </p>
           </div>
           <div className="flex justify-center">
