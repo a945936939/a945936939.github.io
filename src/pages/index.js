@@ -171,7 +171,7 @@ export default function Home() {
                   <AiFillPlayCircle
                     className="h-8 w-8"
                     onClick={() => {
-                      window.open("https://truman1998.itch.io/jump-man");
+                      window.open("https://youtube-black-five.vercel.app/");
                     }}
                   />
                   <p
