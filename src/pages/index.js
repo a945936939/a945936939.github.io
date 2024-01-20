@@ -25,11 +25,11 @@ import Contact from "./Contact";
 export default function Home() {
   console.log(process.env.OPENAI_API_KEY);
   const content1 =
-    "After years of training and practice, I have become a developer and familiar with several tech stacks.";
+    "React.js, Tailwind, HTML, Javascript, CSS, Next.js, Node.js, Express.js, Bootstrap, Git, Github, Vercel, Java, C#, C++... Knowledge with mainstream tech stacks.";
   const content2 =
-    "I also have a strong interest in design, and I have a certain understanding of the design of the product.";
+    "I possess a keen interest in design and hold a certain level of understanding regarding product design.";
   const content3 =
-    "game development is my hobby, I also developed several games during my free time.";
+    "Developing games is a hobby of mine, and I've created several games in my spare time, using different tech stacks.";
   const title1 = "Web Development";
   const title2 = "Design";
   const title3 = "Game Development";

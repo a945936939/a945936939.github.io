@@ -26,14 +26,15 @@ export default function About() {
       <div className="m-auto w-5/6 md:w-1/2 lg:w-1/4">
         <p className="text-6xl font-extrabold text-teal-600">About Me</p>
         <p className="my-5 text-lg">
-          I am a graduate software engineer from Melbourne and I am very excited
-          about creating stunning webpages. My expertise lies in design
-          aesthetic and fully functional websites while usilizing my development
-          skill, crafting innovative products.
+          I graduated in software engineering from Melbourne and am passionate
+          about designing visually impressive webpages. My strengths are in
+          creating aesthetically pleasing and highly functional websites,
+          applying my development skills to innovate and craft unique products.
         </p>
         <p className=" my-3 text-lg">
-          During my off-work hours I usually play video games and focus on some
-          game development, as well as learning the new trending technologies.
+          In my leisure time, I engage in playing video games and devote some
+          time to game development. I also keep myself updated with the latest
+          trending technologies.
         </p>
         <div className="flex flex-col text-xl md:flex-row">
           <div className="mr-6 flex-col justify-between  ">
