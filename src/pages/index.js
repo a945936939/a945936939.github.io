@@ -87,7 +87,7 @@ export default function Home() {
                 Emission Tracker
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800">
-                Using{" "}
+                Using
                 <span className="text-teal-700">
                   PHP, CSS, Bootstrap, Cloud Deploy
                 </span>{" "}
@@ -104,8 +104,8 @@ export default function Home() {
             <div className="flex-1 basis-1/3">
               <h3 className="pb-2 pt-8 text-2xl font-medium"> Fitness app</h3>
               <p className="text-md py-2 leading-8 text-gray-800">
-                Built a fitness app on{" "}
-                <span className="text-teal-700">Android Platform</span>
+                Built a fitness app on Android Android Studio,
+                <span className="text-teal-700">using Java and XML</span>
                 (demonstrated on emulators)
               </p>
               <CodePage link="https://github.com/a945936939/FIT5046" />
