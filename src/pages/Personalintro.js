@@ -10,6 +10,7 @@ import jsPic from "public/icons/icons8-javascript-48.webp";
 import reactPic from "public/icons/icons8-react-native-48.webp";
 import tailwindPic from "public/icons/icons8-tailwind-css-48.webp";
 import { motion } from "framer-motion";
+
 export default function Personalintro() {
   const [vantaEffect, setVantaEffect] = useState(null);
   const myRef = useRef(null);
@@ -76,15 +77,38 @@ export default function Personalintro() {
               Framework, deployed on Github pages.
             </p>
           </div>
-          <div className="flex justify-center">
-            <div className=" md: mb-20 flex  w-3/4 items-center justify-around md:w-1/2  ">
-              <h5 className="text-lg font-bold text-white">TECH STACK </h5>
-              <Image src={htmlPic} />
-              <Image src={cssPic} />
-              <Image src={jsPic} />
-              <Image src={reactPic} />
-              <Image src={tailwindPic} />
-            </div>
+          {/* <div className="flex justify-center"> */}
+          {/* <div className=" md: mb-20 flex  w-3/4 items-center justify-around md:w-1/2  "> */}
+          {/* <h5 className="text-lg font-bold text-white">TECH STACK </h5> */}
+          <div className=" slider mx-auto flex justify-center bg-slate-300 md:w-1/3 ">
+            <img
+              width={64}
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            />
+            <img
+              width={64}
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+            />
+            <img
+              width={64}
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+            />
+            <img
+              width={64}
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+            />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+
+            {/* 
+            <Image src={htmlPic} />
+            <Image src={cssPic} />
+            <Image src={jsPic} />
+            <Image src={reactPic} />
+            <Image src={tailwindPic} /> */}
+            {/* </div> */}
+            {/* </div> */}
           </div>
           <div className="relative mx-auto my-32 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700 py-5 sm:mt-5 sm:h-48 sm:w-48 md:mt-10 md:h-96 md:w-96">
             <motion.div

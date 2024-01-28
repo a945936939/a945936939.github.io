@@ -1,0 +1,18 @@
+.slider {
+  display: grid;
+  overflow: hidden;
+}
+.slider > img {
+  grid-area: 1/1;
+
+  animation: 2s linear infinite loop;
+}
+@keyframes loop {
+  0% {
+    transform: translate(100%);
+  }
+
+  99.99% {
+    transform: translate(-100%);
+  }
+}

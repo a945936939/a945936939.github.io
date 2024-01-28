@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import { Roboto } from "next/font/google";
 import Script from "next/script";
+import "./slider.css";
 const roboto = Roboto({
   weight: "400",
   subsets: ["latin"],
