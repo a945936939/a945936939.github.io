@@ -77,10 +77,8 @@ export default function Personalintro() {
               Framework, deployed on Github pages.
             </p>
           </div>
-          {/* <div className="flex justify-center"> */}
-          {/* <div className=" md: mb-20 flex  w-3/4 items-center justify-around md:w-1/2  "> */}
-          {/* <h5 className="text-lg font-bold text-white">TECH STACK </h5> */}
-          <div className=" slider mx-auto flex justify-center bg-slate-300 md:w-1/3 ">
+          {/* <div className="flex justify-center"> 
+
             <img
               width={64}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -101,15 +99,9 @@ export default function Personalintro() {
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
 
-            {/* 
-            <Image src={htmlPic} />
-            <Image src={cssPic} />
-            <Image src={jsPic} />
-            <Image src={reactPic} />
-            <Image src={tailwindPic} /> */}
-            {/* </div> */}
-            {/* </div> */}
-          </div>
+
+
+          </div> */}
           <div className="relative mx-auto my-32 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700 py-5 sm:mt-5 sm:h-48 sm:w-48 md:mt-10 md:h-96 md:w-96">
             <motion.div
               initial={{ opacity: 0 }}
