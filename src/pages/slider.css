@@ -1,18 +1,14 @@
 .slider {
-  display: grid;
   overflow: hidden;
 }
 .slider > img {
-  grid-area: 1/1;
-
-  animation: 2s linear infinite loop;
+  animation: 15s linear infinite loop;
 }
 @keyframes loop {
-  0% {
-    transform: translate(100%);
+  100% {
+    transform: translateX(calc(96px * 24));
   }
-
-  99.99% {
-    transform: translate(-100%);
-  }
+}
+.slider:hover {
+  animation-play-state: paused;
 }

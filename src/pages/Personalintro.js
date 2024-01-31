@@ -77,31 +77,7 @@ export default function Personalintro() {
               Framework, deployed on Github pages.
             </p>
           </div>
-          {/* <div className="flex justify-center"> 
 
-            <img
-              width={64}
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-            />
-            <img
-              width={64}
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-            />
-            <img
-              width={64}
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
-            />
-            <img
-              width={64}
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
-            />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
-
-
-
-          </div> */}
           <div className="relative mx-auto my-32 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700 py-5 sm:mt-5 sm:h-48 sm:w-48 md:mt-10 md:h-96 md:w-96">
             <motion.div
               initial={{ opacity: 0 }}
