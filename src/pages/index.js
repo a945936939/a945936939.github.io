@@ -42,7 +42,7 @@ export default function Home() {
         </section>
         <section>
           <div className="relative mx-auto bg-white bg-opacity-50 py-24  shadow-xl after:blur-2xl">
-            <div className="slider clear-none mx-auto flex items-center justify-center gap-24 hover:  ">
+            <div className="slider hover: clear-none mx-auto flex items-center justify-center gap-24  ">
               <img
                 width={96}
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -217,6 +217,50 @@ export default function Home() {
 
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="flex-1 basis-1/3">
+              <h3 className="pb-2 pt-8 text-2xl font-medium">
+                Puzzle Game 2048
+              </h3>
+              <p className="text-md py-2 leading-8 text-gray-800">
+                Using{" "}
+                <span className="text-teal-700">
+                  React.js, Javascript, HTML, CSS, Tailwind
+                </span>{" "}
+                built a popular puzzle game, inspired by 2048 and Threes
+              </p>
+
+              <div className="flex justify-around text-center">
+                <div className="mt-8 flex cursor-pointer select-none">
+                  <AiFillPlayCircle
+                    className="h-8 w-8"
+                    onClick={() => {
+                      window.open("https://react-playground-orpin.vercel.app/");
+                    }}
+                  />
+                  <p
+                    onClick={() => {
+                      window.open("https://react-playground-orpin.vercel.app/");
+                    }}
+                    className="font-burtons  text-2xl underline underline-offset-8"
+                  >
+                    Browse
+                  </p>
+                </div>
+                <CodePage link="https://github.com/a945936939/react-playground" />
+              </div>
+            </div>
+            <div className="flex-1 basis-1/3">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={futurecity}
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="flex-1 basis-1/3">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -232,6 +276,7 @@ export default function Home() {
               <p className="text-md py-2 leading-8 text-gray-800">
                 Using
                 <span className="text-teal-700">
+                  {" "}
                   PHP, CSS, Bootstrap, Cloud Deploy
                 </span>{" "}
                 and built a website which can track your carbon footprint based
