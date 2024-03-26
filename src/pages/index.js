@@ -13,7 +13,7 @@ import android3 from "public/android3.webp";
 import consulting from "public/consulting.webp";
 import futurecity from "public/futurecity.webp";
 import game1 from "public/game1.webp";
-
+import game2 from "public/2048.png";
 import { useState } from "react";
 import Service from "./Service";
 import Abilities from "./Abilities";
@@ -254,7 +254,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={futurecity}
+                src={game2}
               />
             </div>
           </div>
