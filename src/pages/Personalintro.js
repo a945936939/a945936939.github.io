@@ -3,7 +3,7 @@ import BIRDS from "vanta/dist/vanta.birds.min";
 import Image from "next/image";
 import { AiFillLinkedin, AiFillGithub, AiFillPlayCircle } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
-import deved from "public/dev-ed-wave.webp";
+import deved from "public/TrumanPhoto.png";
 import htmlPic from "public/icons/icons8-html-48.webp";
 import cssPic from "public/icons/icons8-css-48.webp";
 import jsPic from "public/icons/icons8-javascript-48.webp";
@@ -78,7 +78,7 @@ export default function Personalintro() {
             </p>
           </div>
 
-          <div className="relative mx-auto my-32 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-700 py-5 sm:mt-5 sm:h-48 sm:w-48 md:mt-10 md:h-96 md:w-96">
+          <div className="relative mx-auto my-32 h-32 w-32 overflow-hidden rounded-full bg-gradient-to-b from-teal-600 py-5 shadow-2xl  sm:mt-5 sm:h-48 sm:w-48 md:mt-10 md:h-96 md:w-96">
             <motion.div
               initial={{ opacity: 0 }}
               transition={{ duration: 1.5 }}
