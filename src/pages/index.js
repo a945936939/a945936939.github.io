@@ -14,6 +14,7 @@ import consulting from "public/consulting.webp";
 import futurecity from "public/futurecity.webp";
 import game1 from "public/game1.webp";
 import game2 from "public/2048.png";
+import ai from "public/AI.png";
 import { useState } from "react";
 import Service from "./Service";
 import Abilities from "./Abilities";
@@ -213,6 +214,52 @@ export default function Home() {
               <span className="text-teal-700"> Web development </span>and some
               <span className="text-teal-700"> Games</span>
             </p>
+          </div>
+
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="flex-1 basis-1/3">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={ai}
+              />
+            </div>
+            <div className="flex-1 basis-1/3">
+              <h3 className="pb-2 pt-8 text-2xl font-medium">
+                AI Platform SaaS
+              </h3>
+              <p className="text-md py-2 leading-8 text-gray-800">
+                Using{" "}
+                <span className="text-teal-700">
+                  React.js, Javascript, HTML, CSS, Tailwind, OpenAI API
+                </span>{" "}
+                AI platform using third party APIs, where you can have
+                conversation with my personal ChatGPT, other functions are still
+                under development
+              </p>
+
+              <div className="flex justify-around text-center">
+                <div className="mt-8 flex cursor-pointer select-none">
+                  <AiFillPlayCircle
+                    className="h-8 w-8"
+                    onClick={() => {
+                      window.open("https://react-playground-orpin.vercel.app/");
+                    }}
+                  />
+                  <p
+                    onClick={() => {
+                      window.open("https://react-playground-orpin.vercel.app/");
+                    }}
+                    className="font-burtons  text-2xl underline underline-offset-8"
+                  >
+                    Browse
+                  </p>
+                </div>
+                <CodePage link="https://github.com/a945936939/react-playground" />
+              </div>
+            </div>
           </div>
 
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
