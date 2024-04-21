@@ -245,19 +245,23 @@ export default function Home() {
                   <AiFillPlayCircle
                     className="h-8 w-8"
                     onClick={() => {
-                      window.open("https://react-playground-orpin.vercel.app/");
+                      window.open(
+                        "https://ai-saas-i3uco91oy-trumans-projects.vercel.app/",
+                      );
                     }}
                   />
                   <p
                     onClick={() => {
-                      window.open("https://react-playground-orpin.vercel.app/");
+                      window.open(
+                        "https://ai-saas-i3uco91oy-trumans-projects.vercel.app/",
+                      );
                     }}
                     className="font-burtons  text-2xl underline underline-offset-8"
                   >
                     Browse
                   </p>
                 </div>
-                <CodePage link="https://github.com/a945936939/react-playground" />
+                <CodePage link="https://github.com/a945936939/ai-saas" />
               </div>
             </div>
           </div>
