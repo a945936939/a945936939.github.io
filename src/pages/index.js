@@ -245,16 +245,12 @@ export default function Home() {
                   <AiFillPlayCircle
                     className="h-8 w-8"
                     onClick={() => {
-                      window.open(
-                        "https://ai-saas-i3uco91oy-trumans-projects.vercel.app/",
-                      );
+                      window.open("https://trumanaiplatform.vercel.app/");
                     }}
                   />
                   <p
                     onClick={() => {
-                      window.open(
-                        "https://ai-saas-i3uco91oy-trumans-projects.vercel.app/",
-                      );
+                      window.open("https://trumanaiplatform.vercel.app/");
                     }}
                     className="font-burtons  text-2xl underline underline-offset-8"
                   >
