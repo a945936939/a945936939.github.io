@@ -41,10 +41,10 @@ export default function Personalintro() {
         <div className="pb-20">
           <div className="flex justify-center gap-10 py-10">
             <a
-              className="py-2 text-center text-2xl font-black text-red-500 underline md:text-2xl"
+              className="py-2 text-center text-2xl font-black tracking-wide text-red-500 underline md:text-2xl"
               href="https://trumanportfolio.vercel.app/"
             >
-              THIS PORTFOLIO IS OUTDATED, CLICK HERE TO SEE THE NEW ONE
+              THIS PORTFOLIO IS OUTDATED, CLICK HERE TO SEE THE NEW ONE!
             </a>
           </div>
           <div className="bg p-10 text-center text-white md:p-20">
